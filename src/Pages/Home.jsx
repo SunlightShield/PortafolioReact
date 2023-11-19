@@ -10,7 +10,13 @@ import AboutES from "../Componentes/AboutES"
 import AboutGB from "../Componentes/AboutGB"
 import AboutPL from "../Componentes/AboutPL"
 import AboutDE from "../Componentes/AboutDE"
-import ProyectoRuleta from "../Componentes/ProyectoRuleta" 
+import ProyectoRuletaES from "../Componentes/ProyectoRuletaES"
+import ProyectoRuletaPL from "../Componentes/ProyectoRuletaPL" 
+import ProyectoRuletaGB from "../Componentes/ProyectoRuletaGB"
+import ProyectoRuletaDE from "../Componentes/ProyectoRuletaDe"
+
+
+
 
 function Home() {
     const [selectedIdioma, setSelectedIdioma] = useState('');
@@ -117,29 +123,30 @@ function Home() {
             <div id='about-me'>
                 <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                     {selectedIdioma == 'ES' &&
-                    <ProyectoRuleta/>
+                    <ProyectoRuletaES/>
                     }
 
-                    {/* {selectedIdioma == 'GB' && <div className="card">
-                        <div className="card-body" style={{ color: "white" }}>
-                        <AboutGB></AboutGB>
-                        </div>
-                    </div>
-                    }
-
+                    
                     {selectedIdioma == 'PL' && <div className="card">
                         <div className="card-body" style={{ color: "white" }}>
-                        <AboutPL></AboutPL>
+                            <ProyectoRuletaPL></ProyectoRuletaPL>
                         </div>
                     </div>
                     }
-
-                    {selectedIdioma == 'DE' && <div className="card">
+                    
+                    {selectedIdioma == 'GB' && <div className="card">
                         <div className="card-body" style={{ color: "white" }}>
-                        <AboutDE></AboutDE>
+                        <ProyectoRuletaGB></ProyectoRuletaGB>
                         </div>
                     </div>
-                    } */}
+                    }
+                
+                    {selectedIdioma == 'DE' && <div className="card">
+                        <div className="card-body" style={{ color: "white" }}>
+                        <ProyectoRuletaDE></ProyectoRuletaDE>
+                        </div>
+                    </div>
+                    }
                 </section>
             </div>
 
