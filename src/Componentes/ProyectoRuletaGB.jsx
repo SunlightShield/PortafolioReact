@@ -16,7 +16,7 @@ function ProyectoRuletaGB() {
                     <div className="card-body" style={{ color: "white" }}>
                         <h5 className="card-title">Roulette</h5>
                         <p className="card-text" >Simple roulette created using React</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Ver Mas
                         </button>
                     </div>
@@ -24,14 +24,14 @@ function ProyectoRuletaGB() {
             </div>
 
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel" style={{ color: "black" }}>Ruleta al azar</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h1 className="modal-title fs-5" id="exampleModalLabel" style={{ color: "black" }}>Ruleta al azar</h1>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body" style={{ color: "black" }}>
+                        <div className="modal-body" style={{ color: "black" }}>
                         A roulette created in React allows you to load the database into Excel and choose a potential winner
                             randomly in a funny roulette animation. <br />
 
@@ -39,9 +39,9 @@ function ProyectoRuletaGB() {
                             Show it on the screen and randomly select the winner
 
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Return</button>
-                            <button type="button" class="btn btn-primary" onClick={openOtherPage}>Go to the page</button>
+                        <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Return</button>
+                            <button type="button" className="btn btn-primary" onClick={openOtherPage}>Go to the page</button>
                         </div>
                     </div>
                 </div>
