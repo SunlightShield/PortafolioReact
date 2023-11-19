@@ -10,6 +10,7 @@ import AboutES from "../Componentes/AboutES"
 import AboutGB from "../Componentes/AboutGB"
 import AboutPL from "../Componentes/AboutPL"
 import AboutDE from "../Componentes/AboutDE"
+import ProyectoRuleta from "../Componentes/ProyectoRuleta" 
 
 function Home() {
     const [selectedIdioma, setSelectedIdioma] = useState('');
@@ -60,9 +61,8 @@ function Home() {
             </div>
 
             <div id='about-me'>
-
                 <img id='bonfire' src={gif} alt="Bonfire!!..." />
-                <section className='mt-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+                <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                     {selectedIdioma == 'ES' && <div className="card">
                         <AboutES></AboutES>
                     </div>
@@ -90,6 +90,60 @@ function Home() {
                     }
                 </section>
             </div>
+
+            <section id='language' className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" >
+                    {selectedIdioma == 'ES' && <div>
+                    <h3 style={{ color: "white" }}>Mis Proyectos</h3>
+                    </div>
+                    }
+
+                    {selectedIdioma == 'GB' && <div>
+                    <h3 style={{ color: "white" }}>My projects</h3>
+                    </div>
+                    }
+
+                    {selectedIdioma == 'PL' && <div>
+                    <h3 style={{ color: "white" }}>Moje projekty</h3>
+                    </div>
+                    }
+                    {selectedIdioma == 'DE' && <div>
+                    <h3 style={{ color: "white" }}>Meine Projekte</h3>
+                    </div>
+                    }
+                </section>       
+
+
+
+            <div id='about-me'>
+                <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+                    {selectedIdioma == 'ES' &&
+                    <ProyectoRuleta/>
+                    }
+
+                    {/* {selectedIdioma == 'GB' && <div className="card">
+                        <div className="card-body" style={{ color: "white" }}>
+                        <AboutGB></AboutGB>
+                        </div>
+                    </div>
+                    }
+
+                    {selectedIdioma == 'PL' && <div className="card">
+                        <div className="card-body" style={{ color: "white" }}>
+                        <AboutPL></AboutPL>
+                        </div>
+                    </div>
+                    }
+
+                    {selectedIdioma == 'DE' && <div className="card">
+                        <div className="card-body" style={{ color: "white" }}>
+                        <AboutDE></AboutDE>
+                        </div>
+                    </div>
+                    } */}
+                </section>
+            </div>
+
+
         </>
     )
 }
