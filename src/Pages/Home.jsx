@@ -8,6 +8,8 @@ import ReactFlagsSelect from "react-flags-select";
 import gif from '../assets/bonfire.gif'
 import AboutES from "../Componentes/AboutES"
 import AboutGB from "../Componentes/AboutGB"
+import AboutPL from "../Componentes/AboutPL"
+import AboutDE from "../Componentes/AboutDE"
 
 function Home() {
     const [selectedIdioma, setSelectedIdioma] = useState('');
@@ -75,26 +77,14 @@ function Home() {
 
                     {selectedIdioma == 'PL' && <div className="card">
                         <div className="card-body" style={{ color: "white" }}>
-                            Soy un desarrollador Front End graduado en 2022 de la universidad tecnologica Inacap. <br />
-                            Aunque mis experiencias laborales han sido mayormente en el area de Front End, tambien manejo Phyton, C# y Java (Spring Boot)
-                            En mi actual trabajo, soy miembro del equipo de Front En una empresa de soluziones tecnologicas de Call Center <br />
-                            Donde estoy a cargo del diseño y creacion de vistas, unificacion del Front End y Back End, Consumo de Api y manipulacion
-                            de data en diversos formatos, (tablas, graficos, reportes, etc.). tambien presto apoyo al area de back, ayudando en tareas
-                            de mantencion de base de datos(SQL), creacion de Endpoints (C#) y en tareas de automatizacion y OCR (Python).
-                            En mis tiempos libres estudio y me preparo para crear proyectos usando Spring Boot.
+                        <AboutPL></AboutPL>
                         </div>
                     </div>
                     }
 
                     {selectedIdioma == 'DE' && <div className="card">
                         <div className="card-body" style={{ color: "white" }}>
-                            Soy un desarrollador Front End graduado en 2022 de la universidad tecnologica Inacap. <br />
-                            Aunque mis experiencias laborales han sido mayormente en el area de Front End, tambien manejo Phyton, C# y Java (Spring Boot)
-                            En mi actual trabajo, soy miembro del equipo de Front En una empresa de soluziones tecnologicas de Call Center <br />
-                            Donde estoy a cargo del diseño y creacion de vistas, unificacion del Front End y Back End, Consumo de Api y manipulacion
-                            de data en diversos formatos, (tablas, graficos, reportes, etc.). tambien presto apoyo al area de back, ayudando en tareas
-                            de mantencion de base de datos(SQL), creacion de Endpoints (C#) y en tareas de automatizacion y OCR (Python).
-                            En mis tiempos libres estudio y me preparo para crear proyectos usando Spring Boot.
+                        <AboutDE></AboutDE>
                         </div>
                     </div>
                     }
