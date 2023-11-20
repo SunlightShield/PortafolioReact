@@ -2,7 +2,7 @@ import '../App.css'
 //import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'react-toastify/dist/ReactToastify.css';
-import imagen from "../assets/imgProyectos/CapturaRuleta.jpg"
+//import imagen from "../assets/imgProyectos/CapturaRuleta.jpg"
 
 
 function ProyectoRuletaES() {

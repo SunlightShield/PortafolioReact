@@ -12,6 +12,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+
   }
   
   
@@ -23,6 +24,10 @@
     background-color: #1a1a1a;
     justify-content: center;
     /* margin-top: 10%; */
+    /* background-image: url("../IMG/nightwing.png");
+    background-size: cover; 
+    background-position: fixed;
+    background-color: rgba(10, 10, 10, 0.8); */
   }
   
   h1 {
@@ -101,7 +106,7 @@ cursor: pointer;
 
 #cardP:hover{
    transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+box-shadow: 0 10px 20px rgba(217, 209, 209, 0.12), 0 4px 8px rgba(130, 112, 112, 0.06);
 }
 
 @media(max-width: 990px){

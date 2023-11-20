@@ -15,6 +15,8 @@ function AboutES() {
         de data en diversos formatos, (tablas, graficos, reportes, etc.). tambien presto apoyo al area de back, ayudando en tareas
         de mantencion de base de datos(SQL), creacion de Endpoints (C#) y en tareas de automatizacion y OCR (Python).
         En mis tiempos libres estudio y me preparo para crear proyectos usando Spring Boot.
+        <br/>
+        Ademas, soy un avido jugador de Dark Souls, un Geek de DC comics (Nightwing best batman) y apasionado de los juegos de mesa (Chakra y Ticket to Ride)
       </div>
     </>
   )
