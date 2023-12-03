@@ -32,11 +32,18 @@ function ProyectoRuletaES() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            Una ruleta creada en React, permite cargar una abse de datos en un Excel, y elije a un posible ganador
-                            al azar con una entretenida animacion de ruleta. <br />
-
-                            En este proyecto, me encargue del procedimiento del Back End, creando la funcion para cargar la data,
-                            Mostrarla en pantalla y escoger al ganador al azar
+                            Participé activamente en el desarrollo de una emocionante Ruleta de la Fortuna creada en React. 
+                            Esta aplicación va más allá de la diversión, ya que permite cargar una base de datos desde un archivo Excel y elige a un 
+                            afortunado ganador mediante una animación cautivadora de la ruleta.
+                            <br/>
+                            En este proyecto, asumí el liderazgo en el Back End, diseñando y ejecutando el procedimiento esencial. 
+                            Mi contribución incluyó la creación de la función para cargar la data desde Excel, exhibirla de manera visualmente 
+                            atractiva en pantalla y seleccionar al ganador de forma aleatoria, todo ello con una animación 
+                            que agrega un toque de emoción a la experiencia.
+                            <br/>
+                            Este proyecto no solo destacó mis habilidades técnicas en React, sino también mi capacidad para aportar soluciones 
+                            innovadoras y divertidas. Estoy emocionado de compartir más sobre cómo este proyecto puede agregar un elemento de sorpresa 
+                            y emoción a diversas situaciones y eventos.
 
                         </div>
                         <div className="modal-footer">

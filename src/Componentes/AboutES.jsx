@@ -8,17 +8,22 @@ function AboutES() {
   return (
     <>
       <div className="card-body" style={{ color: "white" }}>
-        Soy un desarrollador Front End graduado en 2022 de la universidad tecnologica Inacap. <br />
-        Aunque mis experiencias laborales han sido mayormente en el area de Front End, tambien manejo Phyton, C# y Java (Spring Boot)
-        En mi actual trabajo, soy miembro del equipo de Front En una empresa de soluziones tecnologicas de Call Center <br />
-        Donde estoy a cargo del diseño y creacion de vistas, unificacion del Front End y Back End, Consumo de Api y manipulacion
-        de data en diversos formatos, (tablas, graficos, reportes, etc.), usualmente en proyectos tipo CRM y Scripts de Call Center. 
+        ¡Hola! Soy un apasionado desarrollador Front End con graduación en 2022 de la Universidad Tecnológica INACAP. 
+        Mi experiencia laboral se ha centrado principalmente en el ámbito Front End, pero también poseo habilidades destacadas en 
+        Python, C# y Java (Spring Boot).
         <br/>
-        tambien presto apoyo al area de back, ayudando en tareas
-        de mantencion de base de datos(SQL), creacion de Endpoints (C#) y en tareas de automatizacion y OCR (Python).
-        En mis tiempos libres estudio y me preparo para crear proyectos usando Spring Boot.
         <br/>
-        Ademas, soy un avido jugador de Dark Souls, un Geek de DC comics (Nightwing best batman) y apasionado de los juegos de mesa (Chakra y Ticket to Ride)
+        En mi puesto actual, formo parte del dinámico equipo de Front End en una innovadora empresa de soluciones tecnológicas para Call Centers. 
+        Como líder en el diseño y creación de vistas, unifico de manera eficiente Front End y Back End, gestiono el consumo de API y manejo de datos en diversos formatos 
+        (tablas, gráficos, reportes, entre otros). Mis proyectos más frecuentes incluyen desarrollos tipo CRM y Scripts de Call Center.
+        <br/>
+        <br/>
+        Adicionalmente, brindo soporte al área de Back End, participando activamente en tareas de mantenimiento de bases de datos (SQL), creación de Endpoints (C#) y 
+        contribuyendo a iniciativas de automatización y OCR (Python). Fuera del horario laboral, dedico tiempo a estudiar y prepararme para futuros proyectos utilizando Spring Boot.
+        <br/>
+        <br/>
+        Mi enfoque va más allá de la rutina profesional. Soy un entusiasta jugador de Dark Souls, un auténtico Geek de DC Comics (siendo Nightwing mi Batman favorito) y un apasionado 
+        de los juegos de mesa, especialmente de títulos como Chakra y Ticket to Ride.
       </div>
     </>
   )

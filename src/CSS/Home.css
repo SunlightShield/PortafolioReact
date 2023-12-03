@@ -95,6 +95,20 @@
   flex-direction: column;
 }
 
+#about-me-Pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about-me-Exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #cardP{
   border-radius: 4px;
   background: #1a1a1a;

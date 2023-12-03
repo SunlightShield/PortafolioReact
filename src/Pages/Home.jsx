@@ -7,6 +7,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import ReactFlagsSelect from "react-flags-select";
 import gif from '../assets/bonfire.gif'
 
+
+import Linkspagina from '../Componentes/Linkspagina';
+import PiePagina from '../Componentes/PiePagina';
+
 import AboutES from "../Componentes/AboutES"
 import AboutGB from "../Componentes/AboutGB"
 import AboutPL from "../Componentes/AboutPL"
@@ -71,6 +75,8 @@ function Home() {
 
             </div>
 
+            
+
             <div id='about-me'>
                 <img id='bonfire' src={gif} alt="Bonfire!!..." />
                 <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
@@ -105,6 +111,7 @@ function Home() {
             <section id='language' className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" >
                 {selectedIdioma == 'ES' && <div>
                     <h3 style={{ color: "white" }}>Mis Proyectos</h3>
+                    <Linkspagina/>
                 </div>
                 }
 
@@ -123,7 +130,7 @@ function Home() {
                 }
             </section>
 
-            <div id='about-me'>
+            <div id='about-me-Pro'>
                 <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                     {selectedIdioma == 'ES' &&
                         <ProyectoRuletaES />
@@ -173,7 +180,7 @@ function Home() {
                 }
             </section>
 
-            <div id='about-me'>
+            <div id='about-me-Exp'>
                 <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                     {selectedIdioma == 'ES' &&
                         <ExperienciaES />
@@ -251,6 +258,8 @@ function Home() {
                     }
                 </section>
             </div> */}
+
+            <PiePagina/>
         </>
     )
 }
