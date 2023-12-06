@@ -18,11 +18,12 @@ function PiePagina() {
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item mr-4">
                                 <a class="link-primary" href="https://github.com/SunlightShield" title="freeCodeCamp" target="_blank" rel="noopener noreferrer">
-                                    <img id='ImagenGit' src={git} alt="ImagenGit!!..." />
+                                    <img id='ImagenGit' src={git} alt="ImagenGit!!..." style={{ width: '100px', height: '100px' }} />
                                 </a>
-                            </li><li class="list-inline-item mr-4">
+                            </li>
+                            <li class="list-inline-item mr-4">
                                 <a class="link-primary" href="www.linkedin.com/in/sebastian-espinoza-henriquez" title="CodePen" target="_blank" rel="noopener noreferrer">
-                                    <img id='Linkedin' src={linkedn} alt="Linkedin!!..." />
+                                    <img id='Linkedin' src={linkedn} alt="Linkedin!!..." style={{ width: '100px', height: '100px' }} />
                                 </a>
                             </li>
                             {/* <li class="list-inline-item">
