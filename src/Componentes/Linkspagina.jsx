@@ -4,9 +4,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'react-toastify/dist/ReactToastify.css';
 
 
-function Linkspagina() {
+function Linkspagina(idioma) {
 
-
+console.log(idioma)
 
     return (
         <>

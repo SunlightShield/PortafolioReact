@@ -111,21 +111,24 @@ function Home() {
             <section id='language' className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" >
                 {selectedIdioma == 'ES' && <div>
                     <h3 style={{ color: "white" }}>Mis Proyectos</h3>
-                    <Linkspagina/>
+                    <Linkspagina idioma={"ES"}/>
                 </div>
                 }
 
                 {selectedIdioma == 'GB' && <div>
                     <h3 style={{ color: "white" }}>My projects</h3>
+                    <Linkspagina idioma={"GB"}/>
                 </div>
                 }
 
                 {selectedIdioma == 'PL' && <div>
                     <h3 style={{ color: "white" }}>Moje projekty</h3>
+                    <Linkspagina idioma={"PL"}/>
                 </div>
                 }
                 {selectedIdioma == 'DE' && <div>
                     <h3 style={{ color: "white" }}>Meine Projekte</h3>
+                    <Linkspagina idioma={"DE"}/>
                 </div>
                 }
             </section>
