@@ -7,19 +7,25 @@ import 'react-toastify/dist/ReactToastify.css';
 function AboutES() {
     return (
         <>
-            <div className="card-body" style={{ color: "white" }}>
-            Jestem programistą Front End, który ukończył w 2022 roku studia na uczelni technologicznej Inacap. <br />
-        Chociaż moje doswiadczenie zawodowe dotyczyło głównie obszaru Front End, posługuję się także Python, C# i Javą (Spring Boot)
-        W obecnej pracy jestem członkiem zespołu Front w firmie zajmujacej się rozwiązaniami technologicznymi Call Center <br />
-        Gdzie zajmuje sie projektowaniem i tworzeniem widokow, ujednoliceniem Front Endu i Back Endu, konsumpcją i manipulacją API
-        danych w rósnych formatach (tabele, wikresy, raporty itp.), najczesciej w projektach typu CRM i Skryptach Call Center.
-        <br/>
-        Zapewniam również wsparcie pleców, pomagając w zadaniach
-        utrzymanie baz danych (SQL), tworzenie punktów końcowych (C#) oraz automatyzacja i zadania OCR (Python).
-        W wolnym czasie studiuję i przygotowuję sie do tworzenia projektów przy użyciu Spring Boot.
-        <br/>
-        Dodatkowo jestem zapalonym graczem Dark Souls, maniakiem komiksów DC (najlepszy Batman Nightwing) i entuzjastą gier planszowych (Chakra i Ticket to Ride).
-        </div>
+            <div className="card text-center" style={{ color: 'white', height: '100%' }}>
+                <div className="card-body d-flex flex-column align-items-center justify-content-center">
+                    Cześć! Jestem zapalonym programistą Front End, który w 2022 roku ukończył studia na Uniwersytecie Technologicznym INACAP.
+                    Moje doświadczenie zawodowe skupiało się głównie na obszarze Front End, ale posiadam również wybitne umiejętności w zakresie Pythona, C# i Java (Spring Boot).
+                    <br />
+                    <br />
+                    Na obecnym stanowisku jestem częścią dynamicznego zespołu Front End w firmie zajmującej się innowacyjnymi rozwiązaniami technologicznymi dla Call Center.
+                    Jako lider w projektowaniu i tworzeniu widoków sprawnie ujednolicam Front End i Back End, zarządzam zużyciem API oraz zarządzam danymi w różnych formatach
+                    (m.in. tabele, wykresy, raporty). Do moich najczęstszych projektów zaliczają się wdrożenia typu CRM oraz Skrypty Call Center.
+                    <br />
+                    <br />
+                    Dodatkowo zapewniam wsparcie obszaru Back End, aktywnie uczestnicząc w zadaniach związanych z utrzymaniem baz danych (SQL), tworzeniem Endpointów (C#) i
+                    udział w inicjatywach automatyzacji i OCR (Python). Poza godzinami pracy spędzam czas na nauce i przygotowaniach do przyszłych projektów przy użyciu Spring Boot.
+                    <br />
+                    <br />
+                    Moje podejście wykracza poza rutynę zawodową. Jestem entuzjastycznym graczem Dark Souls, prawdziwym maniakiem DC Comics (Nightwing to mój ulubiony Batman) i pasjonatem
+                    gier planszowych, zwłaszcza tytułów takich jak Chakra i Ticket to Ride.
+                </div>
+            </div>
         </>
     )
 }
