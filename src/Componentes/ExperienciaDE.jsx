@@ -8,18 +8,26 @@ function ExperienciaDE() {
     return (
         <>
             <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
-                    Meine ersten einschlägigen Berufserfahrungen im IT-Bereich sammelte ich bei „Transportes Duo“, bei dem ich Mitglied war
-                    Front-End-Team, das die Ansichten entwirft und die Funktionen für die Kunden erstellt, in einer Webanwendung mit Vue, Vuetify und Javascript
+            Meine berufliche Laufbahn im Bereich Informatik begann mit bedeutenden Auswirkungen auf
+                    „Duo-Transporte“. In dieser Rolle war ich Teil des Front-End-Teams, wo ich Ansichten entwarf und
+                    Entwickelte Client-Funktionen in einer Webanwendung mit Vue, Vuetify und Javascript. Darüber hinaus habe ich Unterstützung geleistet
+                    zum Back-End-Team beizutragen, bei grundlegenden Aufgaben mit Firebase mitzuwirken und die korrekte Implementierung sicherzustellen
+                    SEO-Strategien.
                     <br />
-                    Ich habe auch das Back-Team unterstützt, indem ich bei grundlegenden Aufgaben mit Firebase geholfen und den korrekten Einsatz von SEO sichergestellt habe.
+                    <br />
+                    Derzeit bin ich ein aktives Mitglied des Front-End-Teams bei Softeck, einem Unternehmen, das das Epizentrum von darstellt
+                    meine beruflichen Herausforderungen. Mein Verantwortungsbereich umfasst die Gestaltung und Erstellung verschiedener Ansichten, sowie die Erfassung
+                    von Daten in Formularen, mit besonderem Schwerpunkt auf Call-Center-Skripten. Meine Fähigkeiten mit React und JavaScript waren
+                    Schlüssel zum Erstellen und Anzeigen von Berichten in CRMs für verschiedene Kunden.
                     <br />
                     <br />
-
-                    Derzeit arbeite ich bei der Firma Softeck als Mitglied des Front-End-Teams, wo ich für das Design und die Erstellung des verantwortlich bin
-                    verschiedene Ansichten und Datenerfassung in Formularen, insbesondere in Callcenter-Skripten, sowie die Erstellung und Visualisierung verschiedener
-                    Berichte in CRMs verschiedener Kunden. Ich arbeite derzeit mit React und JavaScript, in letzter Zeit habe ich auch Aufgaben vom BackEnd-Team übernommen,
-                    Durchführen gespeicherter Prozeduren in SQL, Endpoints und Apis in C# und in einem anderen gleichzeitigen Projekt, Python.
-
+                    Darüber hinaus habe ich meinen Horizont durch die Zusammenarbeit mit dem Back-End-Team erweitert. Dies beinhaltet die Ausführung von
+                    gespeicherte Prozeduren in SQL, die Entwicklung von Endpunkten und APIs in C#. In einem gleichzeitigen Projekt habe ich auch
+                    beschäftigte sich mit Aufgaben im Zusammenhang mit Python.
+                    <br />
+                    <br />
+                    Diese Vielfalt an Erfahrungen hat nicht nur meine Fähigkeiten bereichert, sondern mir auch ermöglicht, Themen anzusprechen
+                    Projekte umfassend. Ich freue mich darauf, weiter zu wachsen und meine Leidenschaft und mein Engagement für zukünftige Herausforderungen einzubringen.
 
                 </div>
         </>

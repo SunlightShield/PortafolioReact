@@ -63,9 +63,6 @@ function Home() {
                 <div className="cube"></div>
                 <div className="cube"></div>
 
-
-
-
                 <ToastContainer
                     autoClose={1000} />
 
@@ -78,41 +75,38 @@ function Home() {
                             countries={countries}
                             customLabels={{ GB: "English", DE: "Deutsch", ES: "Español", PL: "Polski" }}
                         />
-
-                        {/* <div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" >
-                        <Linkspagina idioma={"ES"}/>
-                    </div> */}
                     </section>
 
-
-                    <section id='language' className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" >
+                    <section id='language' className="card text-center card-body d-flex flex-column align-items-center justify-content-center" >
                         {selectedIdioma == 'ES' && <div>
-                            <h1 style={{ color: "white" }}>Hola! Soy Sebastian</h1>
-                            <h1 style={{ color: "white" }}>Bienvenido a mi portafolio</h1>
+                            <h1 style={{ color: "white" }}>Hola! Soy Sebastian
+                            <br/>
+                            Bienvenido a mi portafolio</h1>
                         </div>
                         }
 
-                        {selectedIdioma == 'GB' && <div>
-                            <h1 style={{ color: "white" }}>Hello! Im Sebastian</h1>
-                            <h1 style={{ color: "white" }}>Welcome to my web page</h1>
-                        </div>
+                        {selectedIdioma == 'GB' && 
+                        <div>
+                        <h1 style={{ color: "white" }}>Hello! Im Sebastian
+                        <br/>
+                        Welcome to my web page</h1>
+                    </div>
                         }
 
                         {selectedIdioma == 'PL' && <div>
-                            <h1 style={{ color: "white" }}>Cześć, jestem Sebastian</h1>
-                            <h1 style={{ color: "white" }}>Witam na mojej stronie internetowej</h1>
-                        </div>
+                        <h1 style={{ color: "white" }}>Cześć, jestem Sebastian
+                        <br/>
+                        Witam na mojej stronie internetowej</h1>
+                    </div>
                         }
                         {selectedIdioma == 'DE' && <div>
-                            <h1 style={{ color: "white" }}>Hallo, mein Name ist Sebastian</h1>
-                            <h1 style={{ color: "white" }}>Willkommen auf meiner Website</h1>
-                        </div>
+                        <h1 style={{ color: "white" }}>Hallo, mein Name ist Sebastian
+                        <br/>
+                        Willkommen auf meiner Website</h1>
+                    </div>
                         }
                     </section>
-
                 </div>
-
-
 
                 <animated.div id='about-me' style={{ ...springs, }}>
                     <img id='bonfire' src={gif} alt="Bonfire!!..." />

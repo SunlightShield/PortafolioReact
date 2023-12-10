@@ -8,17 +8,21 @@ function AboutES() {
     return (
         <>
             <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
-                    Ich bin ein Front-End-Entwickler und habe 2022 meinen Abschluss an der Inacap Technology University gemacht. <br />
-                    Obwohl meine Arbeitserfahrungen hauptsächlich im Front-End-Bereich liegen, verwende ich auch Python, C# und Java (Spring Boot).
-                    In meinem aktuellen Job bin ich Mitglied des Front-Teams eines Call-Center-Unternehmens für technologische Lösungen <br />
-                    Dabei bin ich für das Design und die Erstellung von Ansichten, die Vereinheitlichung von Front-End und Back-End, den API-Verbrauch und die Bearbeitung verantwortlich
-                    von Daten in verschiedenen Formaten (Tabellen, Grafiken, Berichte usw.), normalerweise in CRM-Projekten und Callcenter-Skripten.
-                    <br />
-                    Außerdem unterstütze ich den Rückenbereich und helfe bei Aufgaben
-                    Datenbankwartung (SQL), Endpunkterstellung (C#) sowie Automatisierungs- und OCR-Aufgaben (Python).
-                    In meiner Freizeit lerne ich und bereite mich darauf vor, Projekte mit Spring Boot zu erstellen.
-                    <br />
-                    Darüber hinaus bin ich ein begeisterter Dark Souls-Spieler, ein DC-Comic-Freak (Nightwing bester Batman) und ein Brettspiel-Enthusiast (Chakra und Ticket to Ride).
+            Hallo! Ich bin ein leidenschaftlicher Front-End-Entwickler und mache 2022 meinen Abschluss an der INACAP Technological University.
+          Meine Berufserfahrung konzentrierte sich hauptsächlich auf den Front-End-Bereich, aber ich verfüge auch über hervorragende Kenntnisse in Python, C# und Java (Spring Boot).
+          <br />
+          <br />
+          In meiner aktuellen Position bin ich Teil des dynamischen Front-End-Teams eines innovativen Technologielösungsunternehmens für Call Center.
+          Als führendes Unternehmen im Design und der Erstellung von Ansichten vereinheitliche ich effizient Front-End und Back-End, verwalte den API-Verbrauch und verwalte Daten in verschiedenen Formaten
+          (Tabellen, Grafiken, Berichte usw.). Zu meinen häufigsten Projekten gehören CRM-Entwicklungen und Callcenter-Skripte.
+          <br />
+          <br />
+          Darüber hinaus unterstütze ich den Back-End-Bereich und beteilige mich aktiv an Datenbankwartungsaufgaben (SQL), der Erstellung von Endpunkten (C#) und
+          Beitrag zu Automatisierungs- und OCR-Initiativen (Python). Außerhalb der Arbeitszeit verbringe ich Zeit damit, mit Spring Boot zu lernen und mich auf zukünftige Projekte vorzubereiten.
+          <br />
+          <br />
+          Mein Ansatz geht über den beruflichen Alltag hinaus. Ich bin ein begeisterter Dark Souls-Spieler, ein echter DC Comics-Freak (Nightwing ist mein Lieblings-Batman) und ein leidenschaftlicher
+          von Brettspielen, insbesondere Titeln wie Chakra und Ticket to Ride.
             </div>
         </>
     )

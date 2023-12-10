@@ -32,12 +32,18 @@ function ProyectoRuletaGB() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body" style={{ color: "black" }}>
-                        A roulette created in React allows you to load the database into Excel and choose a potential winner
-                            randomly in a funny roulette animation. <br />
-
-                            In this project I was responsible for the Back End procedure, creating a data loading function,
-                            Show it on the screen and randomly select the winner
-
+                        I actively participated in the development of an exciting Wheel of Fortune created in React.
+                            This application goes beyond fun, as it allows you to load a database from an Excel file and choose a
+                            lucky winner through captivating roulette animation.
+                            <br/>
+                            In this project, I assumed leadership in the Back End, designing and executing the essential procedure.
+                            My contribution included creating the function to load the data from Excel, display it visually
+                            attractive on the screen and select the winner at random, all with an animation
+                            which adds a touch of excitement to the experience.
+                            <br/>
+                            This project not only highlighted my technical skills in React, but also my ability to provide solutions
+                            innovative and fun. I'm excited to share more about how this project can add an element of surprise
+                            and emotion to various situations and events.
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Return</button>

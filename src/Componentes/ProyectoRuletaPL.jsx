@@ -32,12 +32,18 @@ function ProyectoRuletaPL() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body" style={{ color: "black" }}>
-                            Ruleta stworzona w React pozwala na załadowanie bazy danyc do Excela i wybranie potencjalnego zwyciezcy
-                            loswo w zabawną animacją ruletki. <br />
-
-                            W tym projecie odpowiadałem za procedurę Back End, tworząc funkcję ładującą dane,
-                            Pokaż to na ekranie i losowo wybierz zwyciezce
-
+                        Aktywnie uczestniczyłem w rozwoju ekscytującego Koła Fortuny stworzonego w React.
+                            Ta aplikacja wykracza poza zabawę, ponieważ pozwala załadować bazę danych z pliku Excel i wybrać
+                            szczęśliwy zwycięzca dzięki wciągającej animacji ruletki.
+                            <br/>
+                            W tym projekcie objąłem kierownictwo w obszarze Back Endu, projektując i wykonując niezbędną procedurę.
+                            Mój wkład polegał na stworzeniu funkcji umożliwiającej załadowanie danych z Excela i ich wizualizację
+                            atrakcyjne na ekranie i losowo wybierz zwycięzcę, a wszystko to z animacją
+                            co dodaje odrobiny emocji do przeżycia.
+                            <br/>
+                            Ten projekt nie tylko uwydatnił moje umiejętności techniczne w React, ale także moją zdolność do dostarczania rozwiązań
+                            innowacyjne i zabawne. Bardzo się cieszę, że mogę podzielić się więcej na temat tego, jak ten projekt może dodać element zaskoczenia
+                            i emocje w różnych sytuacjach i wydarzeniach.
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Powrót</button>

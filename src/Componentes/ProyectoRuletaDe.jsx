@@ -32,12 +32,18 @@ function ProyectoRuletaDE() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body" style={{ color: "black" }}>
-                        Ein in React erstelltes Roulette ermöglicht es Ihnen, die Datenbank in Excel zu laden und einen potenziellen Gewinner auszuwählen
-                            zufällig in einer lustigen Roulette-Animation. <br />
-
-                            In diesem Projekt war ich für die Back-End-Prozedur verantwortlich und erstellte eine Datenladefunktion.
-                            Zeigen Sie es auf dem Bildschirm und wählen Sie den Gewinner nach dem Zufallsprinzip aus
-
+                        Ich war aktiv an der Entwicklung eines spannenden Glücksrads beteiligt, das in React erstellt wurde.
+                            Diese Anwendung macht mehr als nur Spaß, denn sie ermöglicht es Ihnen, eine Datenbank aus einer Excel-Datei zu laden und eine auszuwählen
+                            glücklicher Gewinner durch fesselnde Roulette-Animation.
+                            <br/>
+                            In diesem Projekt übernahm ich die Führung im Backend und konzipierte und führte die wesentlichen Prozesse aus.
+                            Mein Beitrag umfasste die Erstellung der Funktion zum Laden der Daten aus Excel und zur visuellen Anzeige
+                            attraktiv auf dem Bildschirm und wählen Sie den Gewinner nach dem Zufallsprinzip aus, alles mit einer Animation
+                            was dem Erlebnis einen Hauch von Spannung verleiht.
+                            <br/>
+                            Dieses Projekt hat nicht nur meine technischen Fähigkeiten in React hervorgehoben, sondern auch meine Fähigkeit, Lösungen bereitzustellen
+                            innovativ und unterhaltsam. Ich freue mich, mehr darüber zu erzählen, wie dieses Projekt für ein Überraschungselement sorgen kann
+                            und Emotionen auf verschiedene Situationen und Ereignisse.
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Zurückkehren</button>
