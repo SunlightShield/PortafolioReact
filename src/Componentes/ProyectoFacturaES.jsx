@@ -5,25 +5,24 @@ import 'react-toastify/dist/ReactToastify.css';
 //import imagen from "../assets/imgProyectos/CapturaRuleta.jpg"
 
 
-function ProyectoRuletaES() {
+function ProyectoFacturaES() {
     const openOtherPage = () => {
         window.open("https://ruleta-al-azar.vercel.app", '_blank');
     };
     return (
         <>
-            
                 <div className="card col-12 col-sm-12 col-md-4 col-lg-12 col-xl-8" id='cardP'>
                     <div className="card-body" style={{ color: "white" }}>
-                        <h5 className="card-title">Ruleta</h5>
-                        <p className="card-text" >Una sencilla ruleta creada usando React</p>
-                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <h5 className="card-title">Factura</h5>
+                        <p className="card-text" >En construcción</p>
+                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" disabled>
                             Ver Mas
                         </button>
                     </div>
                 </div>
-            
 
 {/* inicio modal */}
+
             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
@@ -57,4 +56,4 @@ function ProyectoRuletaES() {
     )
 }
 
-export default ProyectoRuletaES
+export default ProyectoFacturaES

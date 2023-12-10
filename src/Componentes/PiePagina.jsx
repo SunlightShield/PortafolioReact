@@ -22,7 +22,8 @@ function PiePagina() {
                                 </a>
                             </li>
                             <li class="list-inline-item mr-5">
-                                <a class="link-primary" href="https://linkedin.com/in/sebastian-espinoza-henriquez" title="CodePen" target="_blank" rel="noopener noreferrer">
+                                <a class="link-primary"  title="CodePen" target="_blank" rel="noopener noreferrer"> 
+                                {/* href="https://linkedin.com/in/sebastian-espinoza-henriquez" */}
                                     <img id='Linkedin' src={linkedn} alt="Linkedin!!..." style={{ width: '70px', height: '70px' }} />
                                 </a>
                             </li>

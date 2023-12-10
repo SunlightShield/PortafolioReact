@@ -99,8 +99,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+
 }
+
+#card_Proyectos{
+  display: flex;
+  align-items: center;
+
+}
+
+#seccionProyectos{
+  display: flex;
+  justify-content: center;
+}
+
 
 #about-me-Exp {
   display: flex;
@@ -128,10 +140,6 @@ box-shadow: 0 10px 20px rgba(217, 209, 209, 0.12), 0 4px 8px rgba(130, 112, 112,
   margin: 20px;
 }
 }
-
-
-
-
 .cube {
   position: fixed;
   top: 80vh;

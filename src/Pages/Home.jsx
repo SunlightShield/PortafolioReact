@@ -25,6 +25,7 @@ import ExperienciaDE from '../Componentes/ExperienciaDE';
 import ExperienciaES from '../Componentes/ExperienciaES';
 import ExperienciaGB from '../Componentes/ExperienciaGB';
 import ExperienciaPL from '../Componentes/ExperienciaPL';
+import ProyectoFacturaES from '../Componentes/ProyectoFacturaES';
 
 
 function Home() {
@@ -157,27 +158,60 @@ function Home() {
                     }
                 </section>
 
-                <div id='about-me-Pro'>
-                    <section className='mt-5 mb-5 border border-white col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6'>
-                        {selectedIdioma == 'ES' &&
-                            <ProyectoRuletaES />
-                        }
+                <div id='about-me-Pro' className=''>
+                    <section className=' mt-5 row 
+                    mb-5 border border-white col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6' id="seccionProyectos">
+                       
+                        <div id='card_Proyectos' className='col-xl-12 mb-3'>
 
-                        {selectedIdioma == 'PL' && 
+                            {selectedIdioma == 'ES' &&
+                                <ProyectoRuletaES />
+                            }
+
+                            {selectedIdioma == 'PL' &&
                                 <ProyectoRuletaPL></ProyectoRuletaPL>
-                          
-                        }
 
-                        {selectedIdioma == 'GB' && 
+                            }
+
+                            {selectedIdioma == 'GB' &&
                                 <ProyectoRuletaGB></ProyectoRuletaGB>
-                            
-                        }
 
-                        {selectedIdioma == 'DE' && 
+                            }
+
+                            {selectedIdioma == 'DE' &&
                                 <ProyectoRuletaDE></ProyectoRuletaDE>
-                           
-                        }
+
+                            }
+
+                        </div>
+
+                        <div id='card_Proyectos' className='col-xl-12 mt-3'>
+
+                            {selectedIdioma == 'ES' &&
+                                <ProyectoFacturaES />
+                            }
+
+                            {selectedIdioma == 'PL' &&
+                                <ProyectoRuletaPL></ProyectoRuletaPL>
+
+                            }
+
+                            {selectedIdioma == 'GB' &&
+                                <ProyectoRuletaGB></ProyectoRuletaGB>
+
+                            }
+
+                            {selectedIdioma == 'DE' &&
+                                <ProyectoRuletaDE></ProyectoRuletaDE>
+
+                            }
+
+                        </div>
+
+
+                        
                     </section>
+                    
                 </div>
 
                 <section id='language' className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" >
