@@ -7,8 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 function ExperienciaGB() {
     return (
         <>
-            <div className="card text-center" style={{ color: 'white', height: '100%' }}>
-                <div className="card-body d-flex flex-column align-items-center justify-content-center">
+             <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
+
                     My first relevant work experience in the IT field was working at "Transportes Duo", I was part of the
                     front end team, designing the views and creating the functions for the clients, in a Web application using Vue, Vuetify and Javascript
                     <br />
@@ -20,7 +20,6 @@ function ExperienciaGB() {
                     different views and data capture in forms, especially in Call Center Scripts, in addition to the creation and visualization of different
                     reports in CRMs of various clients. I currently work with React and JavaScript, lately I have also adopted tasks from the BackEnd team,
                     performing stored procedures in SQL, Endpoints and Apis in C# and in another simultaneous project, Python.
-                </div>
             </div>
         </>
     )

@@ -7,8 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function ExperienciaDE() {
     return (
         <>
-            <div className="card text-center" style={{ color: 'white', height: '100%' }}>
-                <div className="card-body d-flex flex-column align-items-center justify-content-center">
+            <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
                     Meine ersten einschlägigen Berufserfahrungen im IT-Bereich sammelte ich bei „Transportes Duo“, bei dem ich Mitglied war
                     Front-End-Team, das die Ansichten entwirft und die Funktionen für die Kunden erstellt, in einer Webanwendung mit Vue, Vuetify und Javascript
                     <br />
@@ -23,7 +22,6 @@ function ExperienciaDE() {
 
 
                 </div>
-            </div>
         </>
     )
 }

@@ -7,8 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function AboutES() {
     return (
         <>
-            <div className="card text-center" style={{ color: 'white', height: '100%' }}>
-                <div className="card-body d-flex flex-column align-items-center justify-content-center">
+            <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
                     Cześć! Jestem zapalonym programistą Front End, który w 2022 roku ukończył studia na Uniwersytecie Technologicznym INACAP.
                     Moje doświadczenie zawodowe skupiało się głównie na obszarze Front End, ale posiadam również wybitne umiejętności w zakresie Pythona, C# i Java (Spring Boot).
                     <br />
@@ -24,7 +23,6 @@ function AboutES() {
                     <br />
                     Moje podejście wykracza poza rutynę zawodową. Jestem entuzjastycznym graczem Dark Souls, prawdziwym maniakiem DC Comics (Nightwing to mój ulubiony Batman) i pasjonatem
                     gier planszowych, zwłaszcza tytułów takich jak Chakra i Ticket to Ride.
-                </div>
             </div>
         </>
     )

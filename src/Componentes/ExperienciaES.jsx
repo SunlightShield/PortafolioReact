@@ -7,9 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function ExperienciaES() {
     return (
         <>
-            <div className="card text-center" style={{ color: 'white', height: '100%' }}>
-                <div className="card-body d-flex flex-column align-items-center justify-content-center">
-
+            <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
                     Mi travesía profesional en el campo de la informática comenzó con un impacto significativo en
                     "Transportes Duo". En este rol, formé parte del equipo de Front End, donde diseñé vistas y
                     desarrollé funciones para clientes en una aplicación web utilizando Vue, Vuetify y Javascript. Además, brindé apoyo
@@ -32,7 +30,6 @@ function ExperienciaES() {
                     proyectos de manera integral. Estoy entusiasmado por seguir creciendo y aportando mi pasión y dedicación a futuros desafíos.
 
                 </div>
-            </div>
         </>
     )
 }

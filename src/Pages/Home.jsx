@@ -117,30 +117,23 @@ function Home() {
                 <animated.div id='about-me' style={{ ...springs, }}>
                     <img id='bonfire' src={gif} alt="Bonfire!!..." />
                     <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
-                        {selectedIdioma == 'ES' && <div className="card">
+                        {selectedIdioma == 'ES' && 
                             <AboutES></AboutES>
-                        </div>
+                        
                         }
 
-                        {selectedIdioma == 'GB' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'GB' && 
                                 <AboutGB></AboutGB>
-                            </div>
-                        </div>
+                           
+                        
                         }
 
-                        {selectedIdioma == 'PL' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'PL' && 
                                 <AboutPL></AboutPL>
-                            </div>
-                        </div>
                         }
 
-                        {selectedIdioma == 'DE' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'DE' && 
                                 <AboutDE></AboutDE>
-                            </div>
-                        </div>
                         }
                     </section>
                 </animated.div>
@@ -172,30 +165,24 @@ function Home() {
                 </section>
 
                 <div id='about-me-Pro'>
-                    <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+                    <section className='mt-5 mb-5 border border-white col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6'>
                         {selectedIdioma == 'ES' &&
                             <ProyectoRuletaES />
                         }
 
-                        {selectedIdioma == 'PL' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'PL' && 
                                 <ProyectoRuletaPL></ProyectoRuletaPL>
-                            </div>
-                        </div>
+                          
                         }
 
-                        {selectedIdioma == 'GB' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'GB' && 
                                 <ProyectoRuletaGB></ProyectoRuletaGB>
-                            </div>
-                        </div>
+                            
                         }
 
-                        {selectedIdioma == 'DE' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'DE' && 
                                 <ProyectoRuletaDE></ProyectoRuletaDE>
-                            </div>
-                        </div>
+                           
                         }
                     </section>
                 </div>
@@ -227,25 +214,18 @@ function Home() {
                             <ExperienciaES />
                         }
 
-                        {selectedIdioma == 'PL' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'PL' && 
                                 <ExperienciaPL />
-                            </div>
-                        </div>
                         }
 
-                        {selectedIdioma == 'GB' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'GB' && 
                                 <ExperienciaGB />
-                            </div>
-                        </div>
+                           
                         }
 
-                        {selectedIdioma == 'DE' && <div className="card">
-                            <div className="card-body" style={{ color: "white" }}>
+                        {selectedIdioma == 'DE' && 
                                 <ExperienciaDE />
-                            </div>
-                        </div>
+                            
                         }
                     </section>
                 </div>

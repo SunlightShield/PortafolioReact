@@ -7,8 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function ExperienciaPL() {
     return (
         <>
-            <div className="card text-center" style={{ color: 'white', height: '100%' }}>
-                <div className="card-body d-flex flex-column align-items-center justify-content-center">
+            <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
                     Moja podróż zawodowa w dziedzinie informatyki rozpoczęła się od znaczącego wpływu na
                     „Duo Transporty”. Na tym stanowisku byłem częścią zespołu Front End, gdzie projektowałem widoki i
                     Opracowano funkcje klienckie w aplikacji internetowej z wykorzystaniem Vue, Vuetify i JavaScript. Dodatkowo zapewniłem wsparcie
@@ -29,7 +28,6 @@ function ExperienciaPL() {
                     <br />
                     Ta różnorodność doświadczeń nie tylko wzbogaciła mój zestaw umiejętności, ale także umożliwiła mi nawiązanie kontaktu
                     projekty kompleksowo. Jestem podekscytowany możliwością dalszego rozwoju i wnoszenia swojej pasji i zaangażowania w przyszłe wyzwania.
-                </div>
             </div>
         </>
     )
