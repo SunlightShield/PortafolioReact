@@ -15,15 +15,15 @@ function ProyectoFacturaPL() {
                     <div className="card-body" style={{ color: "white" }}>
                         <h5 className="card-title">Faktura</h5>
                         <p className="card-text" >Prosta faktura utworzona w React</p>
-                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Ver Mas
+                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFactura">
+                        Zobacz więcej
                         </button>
                     </div>
                 </div>
 
 {/* inicio modal */}
 
-            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade" id="exampleModalFactura" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">

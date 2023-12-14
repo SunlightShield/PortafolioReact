@@ -11,8 +11,7 @@ function ProyectoRuletaPL() {
     };
     return (
         <>
-            <div className='d-flex justify-item-between'>
-                <div className="card col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" id='cardP'>
+           <div className="card col-12 col-sm-12 col-md-4 col-lg-12 col-xl-8" id='cardP'>
                     <div className="card-body" style={{ color: "white" }}>
                         <h5 className="card-title">Ruletka</h5>
                         <p className="card-text" >Prosta ruletka stworzona przy użyciu React</p>
@@ -21,7 +20,7 @@ function ProyectoRuletaPL() {
                         </button>
                     </div>
                 </div>
-            </div>
+            
 
 
             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
