@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 //import imagen from "../assets/imgProyectos/CapturaRuleta.jpg"
 
 
-function ProyectoFacturaES() {
+function ProyectoFacturaPL() {
     const openOtherPage = () => {
         window.open("https://factura-react.vercel.app", '_blank');
     };
@@ -13,32 +13,32 @@ function ProyectoFacturaES() {
         <>
                 <div className="card col-12 col-sm-12 col-md-4 col-lg-12 col-xl-8" id='cardP'>
                     <div className="card-body" style={{ color: "white" }}>
-                        <h5 className="card-title">Invoice</h5>
-                        <p className="card-text" >A simple invoice created in react</p>
-                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFactura">
-                            See more
+                        <h5 className="card-title">Faktura</h5>
+                        <p className="card-text" >Prosta faktura utworzona w React</p>
+                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Ver Mas
                         </button>
                     </div>
                 </div>
 
 {/* inicio modal */}
 
-            <div className="modal fade" id="exampleModalFactura" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel">Dynamic Invoice</h1>
+                            <h1 className="modal-title fs-5" id="exampleModalLabel">Faktura dynamiczna</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                        An example of a dynamic invoice created with React, Js and bootstrap, created with an application in mind
-                            Crud type, allows you to create, delete and display different text fields which also have their respective
-                            validations included.
+                        Przykład faktury dynamicznej utworzonej w React, Js i bootstrap, stworzonej z myślą o aplikacji
+                            Typ Crud, umożliwia tworzenie, usuwanie i wyświetlanie różnych pól tekstowych, które również mają swoje odpowiednie
+                            w tym walidacje.
 
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Return</button>
-                            <button type="button" className="btn btn-primary" onClick={openOtherPage}>Go to the page</button>
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Powrót</button>
+                            <button type="button" className="btn btn-primary" onClick={openOtherPage}>Idź do strony</button>
                         </div>
                     </div>
                 </div>
@@ -47,4 +47,4 @@ function ProyectoFacturaES() {
     )
 }
 
-export default ProyectoFacturaES
+export default ProyectoFacturaPL

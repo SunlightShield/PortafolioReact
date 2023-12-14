@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 //import imagen from "../assets/imgProyectos/CapturaRuleta.jpg"
 
 
-function ProyectoFacturaES() {
+function ProyectoFacturaGB() {
     const openOtherPage = () => {
         window.open("https://factura-react.vercel.app", '_blank');
     };
@@ -13,10 +13,10 @@ function ProyectoFacturaES() {
         <>
                 <div className="card col-12 col-sm-12 col-md-4 col-lg-12 col-xl-8" id='cardP'>
                     <div className="card-body" style={{ color: "white" }}>
-                        <h5 className="card-title">Invoice</h5>
-                        <p className="card-text" >A simple invoice created in react</p>
+                        <h5 className="card-title">Factura</h5>
+                        <p className="card-text" >Una sencilla factura creada en react</p>
                         <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFactura">
-                            See more
+                            Ver Mas
                         </button>
                     </div>
                 </div>
@@ -27,18 +27,18 @@ function ProyectoFacturaES() {
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel">Dynamic Invoice</h1>
+                            <h1 className="modal-title fs-5" id="exampleModalLabel">Factura Dinamica</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                        An example of a dynamic invoice created with React, Js and bootstrap, created with an application in mind
-                            Crud type, allows you to create, delete and display different text fields which also have their respective
-                            validations included.
+                            Un ejemplo de una factura dinamica creada con React, Js y bootstrap, creada pensando en una aplicacion 
+                            tipo Crud, permite crear, eliminar y mostrar diferentes campos de texto los cuales tambien tienen sus respectivas
+                            validaciones incluidas. 
 
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Return</button>
-                            <button type="button" className="btn btn-primary" onClick={openOtherPage}>Go to the page</button>
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                            <button type="button" className="btn btn-primary" onClick={openOtherPage}>Ir a la pagina</button>
                         </div>
                     </div>
                 </div>
@@ -47,4 +47,4 @@ function ProyectoFacturaES() {
     )
 }
 
-export default ProyectoFacturaES
+export default ProyectoFacturaGB

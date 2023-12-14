@@ -11,8 +11,7 @@ function ProyectoRuletaDE() {
     };
     return (
         <>
-            <div className='d-flex justify-item-between'>
-                <div className="card col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" id='cardP'>
+            <div className="card col-12 col-sm-12 col-md-4 col-lg-12 col-xl-8" id='cardP'>
                     <div className="card-body" style={{ color: "white" }}>
                         <h5 className="card-title">Roulette</h5>
                         <p className="card-text" >Einfaches Roulette erstellt mit React</p>
@@ -21,14 +20,14 @@ function ProyectoRuletaDE() {
                         </button>
                     </div>
                 </div>
-            </div>
+           
 
 
-            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel" style={{ color: "black" }}>Zufallsroulette</h1>
+                            <h1 className="modal-title fs-5" id="exampleModalLabel">Zufallsroulette</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body" style={{ color: "black" }}>

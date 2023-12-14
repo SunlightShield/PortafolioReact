@@ -21,11 +21,15 @@ import ProyectoRuletaPL from "../Componentes/ProyectoRuletaPL"
 import ProyectoRuletaGB from "../Componentes/ProyectoRuletaGB"
 import ProyectoRuletaDE from "../Componentes/ProyectoRuletaDe"
 
+import ProyectoFacturaES from '../Componentes/ProyectoFacturaES';
+import ProyectoFacturaPL from "../Componentes/ProyectoFacturaPL";
+import ProyectoFacturaGB from "../Componentes/ProyectoFacturaGB";
+import ProyectoFacturaDE from "../Componentes/ProyectoFacturaDE";
+
 import ExperienciaDE from '../Componentes/ExperienciaDE';
 import ExperienciaES from '../Componentes/ExperienciaES';
 import ExperienciaGB from '../Componentes/ExperienciaGB';
 import ExperienciaPL from '../Componentes/ExperienciaPL';
-import ProyectoFacturaES from '../Componentes/ProyectoFacturaES';
 
 
 function Home() {
@@ -192,17 +196,17 @@ function Home() {
                             }
 
                             {selectedIdioma == 'PL' &&
-                                <ProyectoRuletaPL></ProyectoRuletaPL>
+                                <ProyectoFacturaPL></ProyectoFacturaPL>
 
                             }
 
                             {selectedIdioma == 'GB' &&
-                                <ProyectoRuletaGB></ProyectoRuletaGB>
+                                <ProyectoFacturaGB></ProyectoFacturaGB>
 
                             }
 
                             {selectedIdioma == 'DE' &&
-                                <ProyectoRuletaDE></ProyectoRuletaDE>
+                                <ProyectoFacturaDE></ProyectoFacturaDE>
 
                             }
 
