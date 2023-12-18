@@ -60,12 +60,12 @@ function Home() {
     return (
         <>
             <div className="hero">
+                {/* <div className="cube"></div>
                 <div className="cube"></div>
                 <div className="cube"></div>
                 <div className="cube"></div>
                 <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
+                <div className="cube"></div> */}
 
                 <ToastContainer
                     autoClose={1000} />

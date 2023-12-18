@@ -32,7 +32,7 @@ function PiePagina() {
                 </div>
                 <div class="footer-bottom bg-dark-custom">
                     <div class="container">
-                        <p style={{ color: "white" }}>developed by Sebatian Espinoza 2023</p>
+                        <p style={{ color: "white" }}>developed by Sunlight_Shield 2023</p>
                     </div>
                 </div>
             </footer>
