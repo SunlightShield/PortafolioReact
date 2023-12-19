@@ -14,19 +14,15 @@ import PiePagina from '../Componentes/PiePagina';
 import AboutES from "../Componentes/AboutES"
 import AboutGB from "../Componentes/AboutGB"
 import AboutPL from "../Componentes/AboutPL"
-import AboutDE from "../Componentes/AboutDE"
 
 import ProyectoRuletaES from "../Componentes/ProyectoRuletaES"
 import ProyectoRuletaPL from "../Componentes/ProyectoRuletaPL"
 import ProyectoRuletaGB from "../Componentes/ProyectoRuletaGB"
-import ProyectoRuletaDE from "../Componentes/ProyectoRuletaDe"
 
 import ProyectoFacturaES from '../Componentes/ProyectoFacturaES';
 import ProyectoFacturaPL from "../Componentes/ProyectoFacturaPL";
 import ProyectoFacturaGB from "../Componentes/ProyectoFacturaGB";
-import ProyectoFacturaDE from "../Componentes/ProyectoFacturaDE";
 
-import ExperienciaDE from '../Componentes/ExperienciaDE';
 import ExperienciaES from '../Componentes/ExperienciaES';
 import ExperienciaGB from '../Componentes/ExperienciaGB';
 import ExperienciaPL from '../Componentes/ExperienciaPL';
@@ -34,7 +30,7 @@ import ExperienciaPL from '../Componentes/ExperienciaPL';
 
 function Home() {
     const [selectedIdioma, setSelectedIdioma] = useState('ES');
-    const countries = ["GB", "DE", "ES", "PL",];
+    const countries = ["GB", "ES", "PL",];
     const [springs, api] = useSpring(() => ({
         from: { x: 0 },
         config: { duration: 500 },
@@ -77,7 +73,7 @@ function Home() {
                             selected={selectedIdioma}
                             onSelect={code => setSelectedIdioma(code)}
                             countries={countries}
-                            customLabels={{ GB: "English", DE: "Deutsch", ES: "Español", PL: "Polski" }}
+                            customLabels={{ GB: "English",  ES: "Español", PL: "Polski" }}
                         />
                     </section>
 
@@ -103,12 +99,7 @@ function Home() {
                         Witam na mojej stronie internetowej</h1>
                     </div>
                         }
-                        {selectedIdioma == 'DE' && <div>
-                        <h1 style={{ color: "white" }}>Hallo, mein Name ist Sebastian
-                        <br/>
-                        Willkommen auf meiner Website</h1>
-                    </div>
-                        }
+                        
                     </section>
                 </div>
 
@@ -130,9 +121,6 @@ function Home() {
                                 <AboutPL></AboutPL>
                         }
 
-                        {selectedIdioma == 'DE' && 
-                                <AboutDE></AboutDE>
-                        }
                     </section>
                 </animated.div>
 
@@ -155,11 +143,7 @@ function Home() {
 
                     </div>
                     }
-                    {selectedIdioma == 'DE' && <div>
-                        <h3 style={{ color: "white" }}>Meine Projekte</h3>
-
-                    </div>
-                    }
+                    
                 </section>
 
                 <div id='about-me-Pro' className=''>
@@ -182,12 +166,7 @@ function Home() {
 
                             }
 
-                            {selectedIdioma == 'DE' &&
-                                <ProyectoRuletaDE></ProyectoRuletaDE>
-
-                            }
-
-                        </div>
+                                                    </div>
 
                         <div id='card_Proyectos' className='col-xl-12 mt-3'>
 
@@ -205,10 +184,7 @@ function Home() {
 
                             }
 
-                            {selectedIdioma == 'DE' &&
-                                <ProyectoFacturaDE></ProyectoFacturaDE>
-
-                            }
+                            
 
                         </div>
 
@@ -233,10 +209,7 @@ function Home() {
                         <h3 style={{ color: "white" }}>Moje doświadczenia zawodowe</h3>
                     </div>
                     }
-                    {selectedIdioma == 'DE' && <div>
-                        <h3 style={{ color: "white" }}>Meine Berufserfahrungen</h3>
-                    </div>
-                    }
+                    
                 </section>
 
                 <div id='about-me-Exp'>
@@ -254,10 +227,7 @@ function Home() {
                            
                         }
 
-                        {selectedIdioma == 'DE' && 
-                                <ExperienciaDE />
-                            
-                        }
+                        
                     </section>
                 </div>
 

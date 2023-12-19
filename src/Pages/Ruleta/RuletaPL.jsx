@@ -9,7 +9,7 @@ import 'animate.css';
 import CapturaRuleta from '../../IMG/CapturaRuleta.jpg'
 import PiePagina from '../../Componentes/PiePagina';
 
-function RuletaGB() {
+function RuletaPL() {
     const [selectedIdioma, setSelectedIdioma] = useState('ES');
     const countries = ["GB", "DE", "ES", "PL",];
     const [springs, api] = useSpring(() => ({
@@ -44,13 +44,6 @@ function RuletaGB() {
     return (
         <>
             <div className="hero">
-                {/* <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div> */}
-
                 <ToastContainer
                     autoClose={1000} />
 
@@ -59,18 +52,18 @@ function RuletaGB() {
                     <img id='bonfire' src={CapturaRuleta} alt="Bonfire!!..." />
                     <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                         <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
-                            I actively participated in the development of an exciting Wheel of Fortune created in React.
-                            This application goes beyond fun, as it allows you to load a database from an Excel file and choose a
-                            lucky winner through captivating roulette animation.
-                            <br />
-                            In this project, I assumed leadership in the Back End, designing and executing the essential procedure.
-                            My contribution included creating the function to load the data from Excel, display it visually
-                            attractive on the screen and select the winner at random, all with an animation
-                            which adds a touch of excitement to the experience.
-                            <br />
-                            This project not only highlighted my technical skills in React, but also my ability to provide solutions
-                            innovative and fun. I'm excited to share more about how this project can add an element of surprise
-                            and emotion to various situations and events.
+                        Aktywnie uczestniczyłem w rozwoju ekscytującego Koła Fortuny stworzonego w React.
+                            Ta aplikacja wykracza poza zabawę, ponieważ pozwala załadować bazę danych z pliku Excel i wybrać
+                            szczęśliwy zwycięzca dzięki wciągającej animacji ruletki.
+                            <br/>
+                            W tym projekcie objąłem kierownictwo w obszarze Back Endu, projektując i wykonując niezbędną procedurę.
+                            Mój wkład polegał na stworzeniu funkcji umożliwiającej załadowanie danych z Excela i ich wizualizację
+                            atrakcyjne na ekranie i losowo wybierz zwycięzcę, a wszystko to z animacją
+                            co dodaje odrobiny emocji do przeżycia.
+                            <br/>
+                            Ten projekt nie tylko uwydatnił moje umiejętności techniczne w React, ale także moją zdolność do dostarczania rozwiązań
+                            innowacyjne i zabawne. Bardzo się cieszę, że mogę podzielić się więcej na temat tego, jak ten projekt może dodać element zaskoczenia
+                            i emocje w różnych sytuacjach i wydarzeniach.
                         </div>
                     </section>
                 </animated.div>
@@ -79,11 +72,11 @@ function RuletaGB() {
 
                     <section className='mt-5 mb-5 border border-white col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                         <div className="card text-center card-body d-flex flex-column align-items-center justify-content-center" style={{ color: 'white', height: '100%' }}>
-                            <p>All the front was created with React, the function to chosse the winner was made with JavaScript</p>
+                            <p>Cały front został stworzony w React, funkcja wyłonienia zwycięzcy została wykonana w JavaScript</p>
                             <br />
-                            <p>For the CSS we used Bootstrap, the function that reads the excel is an external library  </p>
+                            <p>W przypadku CSS użyliśmy Bootstrap, funkcją odczytującą Excel jest biblioteka zewnętrzna  </p>
                             <br />
-                            <button type="button" className="btn btn-primary" onClick={openOtherPage}>Go to the page</button>
+                            <button type="button" className="btn btn-primary" onClick={openOtherPage}>Przejdź do strony</button>
                         </div>
                     </section>
                 </animated.div>
@@ -94,4 +87,4 @@ function RuletaGB() {
     )
 }
 
-export default RuletaGB
+export default RuletaPL
