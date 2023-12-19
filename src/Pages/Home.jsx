@@ -175,12 +175,12 @@ function Home() {
                             }
 
                             {selectedIdioma == 'PL' &&
-                                <ProyectoFacturaPL></ProyectoFacturaPL>
+                                <ProyectoFacturaPL/>
 
                             }
 
                             {selectedIdioma == 'GB' &&
-                                <ProyectoFacturaGB></ProyectoFacturaGB>
+                                <ProyectoFacturaGB/>
 
                             }
 
