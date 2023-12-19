@@ -13,6 +13,7 @@ function ProyectoRuletaES() {
 
     return (
         <>
+        {/* provisorio */}
             <div className="card col-12 col-sm-12 col-md-4 col-lg-12 col-xl-8" id='cardP'>
                 <div className="card-body" style={{ color: "white" }}>
                     <h5 className="card-title">Ruletka</h5>

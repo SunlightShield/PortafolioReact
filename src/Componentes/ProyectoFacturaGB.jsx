@@ -15,7 +15,7 @@ function ProyectoFacturaGB() {
                     <div className="card-body" style={{ color: "white" }}>
                         <h5 className="card-title">Invoice</h5>
                         <p className="card-text" >A simple invoice created in react</p>
-                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFactura">
+                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalFactura" disabled>
                             See more
                         </button>
                     </div>

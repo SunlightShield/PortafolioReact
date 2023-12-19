@@ -6,7 +6,7 @@ import RuletaGB from './Pages/Ruleta/RuletaGB.jsx';
 import RuletaPL from './Pages/Ruleta/RuletaPL.jsx';
 
 import './CSS/Home.css';
-//import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
