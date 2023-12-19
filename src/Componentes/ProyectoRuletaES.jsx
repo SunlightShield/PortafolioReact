@@ -3,12 +3,20 @@ import '../App.css'
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'react-toastify/dist/ReactToastify.css';
 //import imagen from "../assets/imgProyectos/CapturaRuleta.jpg"
+import { useNavigate } from 'react-router-dom';
+ 
 
 
 function ProyectoRuletaES() {
-    const openOtherPage = () => {
-        window.open("https://ruleta-al-azar.vercel.app", '_blank');
-    };
+
+    const navigate = useNavigate();
+
+
+    // const openOtherPage = () => {
+    //     console.log("prueba")
+    //     navigate('/ruleta')}
+    //     // window.open("https://ruleta-al-azar.vercel.app", '_blank');
+    // };
     return (
         <>
             
@@ -16,7 +24,7 @@ function ProyectoRuletaES() {
                     <div className="card-body" style={{ color: "white" }}>
                         <h5 className="card-title">Ruleta</h5>
                         <p className="card-text" >Una sencilla ruleta creada usando React</p>
-                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" className="btn btn-primary" onClick={() => navigate('/ruleta')}>
                             Ver Mas
                         </button>
                     </div>
@@ -24,7 +32,7 @@ function ProyectoRuletaES() {
             
 
 {/* inicio modal */}
-            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            {/* <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -52,7 +60,7 @@ function ProyectoRuletaES() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
