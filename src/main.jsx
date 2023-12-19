@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Home from './Pages/Home.jsx';
 import RuletaES from './Pages/Ruleta/RuletaES.jsx';
 import RuletaGB from './Pages/Ruleta/RuletaGB.jsx';
-import RuletaPL from './Pages/Ruleta/RuletaPl.jsx';
+import RuletaPL from './Pages/Ruleta/RuletaPL.jsx';
 
 import './CSS/Home.css';
 //import "bootstrap/dist/css/bootstrap.min.css";
